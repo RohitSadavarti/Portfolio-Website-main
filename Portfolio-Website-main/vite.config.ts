@@ -1,7 +1,7 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/react-refresh' // or your current react plugin
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-});
+  base: '/Portfolio-Website-main/', // Add your exact repository name here wrapped in slashes
+})
